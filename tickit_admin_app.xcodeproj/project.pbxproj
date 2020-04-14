@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E8294C2B8CBD9789BADAD90 /* Pods_tickit_admin_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCECAE955CEBCA9A7593BD90 /* Pods_tickit_admin_appTests.framework */; };
+		703C767A81A39215F7D3CF83 /* Pods_tickit_admin_app_tickit_admin_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A7D8D5EAFBD01D5AA24714 /* Pods_tickit_admin_app_tickit_admin_appUITests.framework */; };
+		B22A6A31B4B001305B17DFF1 /* Pods_tickit_admin_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB2A4F297498676C697210B /* Pods_tickit_admin_app.framework */; };
+		D43BB56624461F5600E7E596 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43BB56524461F5600E7E596 /* MoviesViewController.swift */; };
+		D43BB56824461F6600E7E596 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43BB56724461F6600E7E596 /* EventsViewController.swift */; };
+		D43BB56A24461F8500E7E596 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43BB56924461F8500E7E596 /* SportsViewController.swift */; };
+		D43BB56C24461FC600E7E596 /* PopularEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43BB56B24461FC600E7E596 /* PopularEventsViewController.swift */; };
+		D48D4E692446023000A285AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D4E682446023000A285AE /* AppDelegate.swift */; };
+		D48D4E6B2446023000A285AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D4E6A2446023000A285AE /* SceneDelegate.swift */; };
+		D48D4E6D2446023000A285AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D4E6C2446023000A285AE /* ViewController.swift */; };
+		D48D4E702446023000A285AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48D4E6E2446023000A285AE /* Main.storyboard */; };
+		D48D4E722446023800A285AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48D4E712446023800A285AE /* Assets.xcassets */; };
+		D48D4E752446023800A285AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48D4E732446023800A285AE /* LaunchScreen.storyboard */; };
+		D48D4E802446023800A285AE /* tickit_admin_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D4E7F2446023800A285AE /* tickit_admin_appTests.swift */; };
+		D48D4E8B2446023800A285AE /* tickit_admin_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D4E8A2446023800A285AE /* tickit_admin_appUITests.swift */; };
+		D48D4E992446070E00A285AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D48D4E982446070E00A285AE /* GoogleService-Info.plist */; };
+		D48D4E9B2446151000A285AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D4E9A2446151000A285AE /* HomeViewController.swift */; };
+		D48D4E9D2446179000A285AE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D4E9C2446179000A285AE /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48D4E7C2446023800A285AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48D4E5D2446023000A285AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48D4E642446023000A285AE;
+			remoteInfo = tickit_admin_app;
+		};
+		D48D4E872446023800A285AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48D4E5D2446023000A285AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48D4E642446023000A285AE;
+			remoteInfo = tickit_admin_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9720761DBE30778AE8BF32 /* Pods-tickit_admin_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tickit_admin_appTests.release.xcconfig"; path = "Target Support Files/Pods-tickit_admin_appTests/Pods-tickit_admin_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		14C82ABF7DE4204C2D8BAF7A /* Pods-tickit_admin_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tickit_admin_app.release.xcconfig"; path = "Target Support Files/Pods-tickit_admin_app/Pods-tickit_admin_app.release.xcconfig"; sourceTree = "<group>"; };
+		1C330AAA846BAC62AF8C88E1 /* Pods-tickit_admin_app-tickit_admin_appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tickit_admin_app-tickit_admin_appUITests.release.xcconfig"; path = "Target Support Files/Pods-tickit_admin_app-tickit_admin_appUITests/Pods-tickit_admin_app-tickit_admin_appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4705646A902BA7E62068941B /* Pods-tickit_admin_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tickit_admin_appTests.debug.xcconfig"; path = "Target Support Files/Pods-tickit_admin_appTests/Pods-tickit_admin_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		499888E8BA57FA8569CCEF98 /* Pods-tickit_admin_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tickit_admin_app.debug.xcconfig"; path = "Target Support Files/Pods-tickit_admin_app/Pods-tickit_admin_app.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB2A4F297498676C697210B /* Pods_tickit_admin_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tickit_admin_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A7D8D5EAFBD01D5AA24714 /* Pods_tickit_admin_app_tickit_admin_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tickit_admin_app_tickit_admin_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCECAE955CEBCA9A7593BD90 /* Pods_tickit_admin_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tickit_admin_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43BB56524461F5600E7E596 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		D43BB56724461F6600E7E596 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		D43BB56924461F8500E7E596 /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		D43BB56B24461FC600E7E596 /* PopularEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularEventsViewController.swift; sourceTree = "<group>"; };
+		D48D4E652446023000A285AE /* tickit_admin_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tickit_admin_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48D4E682446023000A285AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D48D4E6A2446023000A285AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D48D4E6C2446023000A285AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D48D4E6F2446023000A285AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D48D4E712446023800A285AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D48D4E742446023800A285AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D48D4E762446023800A285AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48D4E7B2446023800A285AE /* tickit_admin_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tickit_admin_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48D4E7F2446023800A285AE /* tickit_admin_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tickit_admin_appTests.swift; sourceTree = "<group>"; };
+		D48D4E812446023800A285AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48D4E862446023800A285AE /* tickit_admin_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tickit_admin_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48D4E8A2446023800A285AE /* tickit_admin_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tickit_admin_appUITests.swift; sourceTree = "<group>"; };
+		D48D4E8C2446023800A285AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48D4E982446070E00A285AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D48D4E9A2446151000A285AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D48D4E9C2446179000A285AE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		DBC720B0D5BD22D2B66DFCB1 /* Pods-tickit_admin_app-tickit_admin_appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tickit_admin_app-tickit_admin_appUITests.debug.xcconfig"; path = "Target Support Files/Pods-tickit_admin_app-tickit_admin_appUITests/Pods-tickit_admin_app-tickit_admin_appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48D4E622446023000A285AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22A6A31B4B001305B17DFF1 /* Pods_tickit_admin_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48D4E782446023800A285AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8294C2B8CBD9789BADAD90 /* Pods_tickit_admin_appTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48D4E832446023800A285AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703C767A81A39215F7D3CF83 /* Pods_tickit_admin_app_tickit_admin_appUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A773688CD1AD51B5AFAED32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				499888E8BA57FA8569CCEF98 /* Pods-tickit_admin_app.debug.xcconfig */,
+				14C82ABF7DE4204C2D8BAF7A /* Pods-tickit_admin_app.release.xcconfig */,
+				DBC720B0D5BD22D2B66DFCB1 /* Pods-tickit_admin_app-tickit_admin_appUITests.debug.xcconfig */,
+				1C330AAA846BAC62AF8C88E1 /* Pods-tickit_admin_app-tickit_admin_appUITests.release.xcconfig */,
+				4705646A902BA7E62068941B /* Pods-tickit_admin_appTests.debug.xcconfig */,
+				0B9720761DBE30778AE8BF32 /* Pods-tickit_admin_appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D48D4E5C2446023000A285AE = {
+			isa = PBXGroup;
+			children = (
+				D48D4E672446023000A285AE /* tickit_admin_app */,
+				D48D4E7E2446023800A285AE /* tickit_admin_appTests */,
+				D48D4E892446023800A285AE /* tickit_admin_appUITests */,
+				D48D4E662446023000A285AE /* Products */,
+				6A773688CD1AD51B5AFAED32 /* Pods */,
+				FD63688A9CC20455933A3D57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D48D4E662446023000A285AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48D4E652446023000A285AE /* tickit_admin_app.app */,
+				D48D4E7B2446023800A285AE /* tickit_admin_appTests.xctest */,
+				D48D4E862446023800A285AE /* tickit_admin_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48D4E672446023000A285AE /* tickit_admin_app */ = {
+			isa = PBXGroup;
+			children = (
+				D48D4E682446023000A285AE /* AppDelegate.swift */,
+				D48D4E6A2446023000A285AE /* SceneDelegate.swift */,
+				D48D4E6C2446023000A285AE /* ViewController.swift */,
+				D48D4E6E2446023000A285AE /* Main.storyboard */,
+				D48D4E9A2446151000A285AE /* HomeViewController.swift */,
+				D48D4E982446070E00A285AE /* GoogleService-Info.plist */,
+				D48D4E712446023800A285AE /* Assets.xcassets */,
+				D48D4E732446023800A285AE /* LaunchScreen.storyboard */,
+				D48D4E762446023800A285AE /* Info.plist */,
+				D48D4E9C2446179000A285AE /* CollectionViewCell.swift */,
+				D43BB56524461F5600E7E596 /* MoviesViewController.swift */,
+				D43BB56724461F6600E7E596 /* EventsViewController.swift */,
+				D43BB56924461F8500E7E596 /* SportsViewController.swift */,
+				D43BB56B24461FC600E7E596 /* PopularEventsViewController.swift */,
+			);
+			path = tickit_admin_app;
+			sourceTree = "<group>";
+		};
+		D48D4E7E2446023800A285AE /* tickit_admin_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				D48D4E7F2446023800A285AE /* tickit_admin_appTests.swift */,
+				D48D4E812446023800A285AE /* Info.plist */,
+			);
+			path = tickit_admin_appTests;
+			sourceTree = "<group>";
+		};
+		D48D4E892446023800A285AE /* tickit_admin_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D48D4E8A2446023800A285AE /* tickit_admin_appUITests.swift */,
+				D48D4E8C2446023800A285AE /* Info.plist */,
+			);
+			path = tickit_admin_appUITests;
+			sourceTree = "<group>";
+		};
+		FD63688A9CC20455933A3D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CB2A4F297498676C697210B /* Pods_tickit_admin_app.framework */,
+				B2A7D8D5EAFBD01D5AA24714 /* Pods_tickit_admin_app_tickit_admin_appUITests.framework */,
+				BCECAE955CEBCA9A7593BD90 /* Pods_tickit_admin_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48D4E642446023000A285AE /* tickit_admin_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48D4E8F2446023800A285AE /* Build configuration list for PBXNativeTarget "tickit_admin_app" */;
+			buildPhases = (
+				C2371005CE703DEE5091533C /* [CP] Check Pods Manifest.lock */,
+				D48D4E612446023000A285AE /* Sources */,
+				D48D4E622446023000A285AE /* Frameworks */,
+				D48D4E632446023000A285AE /* Resources */,
+				336A2E161128DA7A8E4A777A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tickit_admin_app;
+			productName = tickit_admin_app;
+			productReference = D48D4E652446023000A285AE /* tickit_admin_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48D4E7A2446023800A285AE /* tickit_admin_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48D4E922446023800A285AE /* Build configuration list for PBXNativeTarget "tickit_admin_appTests" */;
+			buildPhases = (
+				5A965C5481501CA6595AB8B0 /* [CP] Check Pods Manifest.lock */,
+				D48D4E772446023800A285AE /* Sources */,
+				D48D4E782446023800A285AE /* Frameworks */,
+				D48D4E792446023800A285AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48D4E7D2446023800A285AE /* PBXTargetDependency */,
+			);
+			name = tickit_admin_appTests;
+			productName = tickit_admin_appTests;
+			productReference = D48D4E7B2446023800A285AE /* tickit_admin_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D48D4E852446023800A285AE /* tickit_admin_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48D4E952446023800A285AE /* Build configuration list for PBXNativeTarget "tickit_admin_appUITests" */;
+			buildPhases = (
+				A66CFD7620AF139E2682044C /* [CP] Check Pods Manifest.lock */,
+				D48D4E822446023800A285AE /* Sources */,
+				D48D4E832446023800A285AE /* Frameworks */,
+				D48D4E842446023800A285AE /* Resources */,
+				7EB748844DCB98C3DDDDE2D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48D4E882446023800A285AE /* PBXTargetDependency */,
+			);
+			name = tickit_admin_appUITests;
+			productName = tickit_admin_appUITests;
+			productReference = D48D4E862446023800A285AE /* tickit_admin_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48D4E5D2446023000A285AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Angadjot singh";
+				TargetAttributes = {
+					D48D4E642446023000A285AE = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					D48D4E7A2446023800A285AE = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = D48D4E642446023000A285AE;
+					};
+					D48D4E852446023800A285AE = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = D48D4E642446023000A285AE;
+					};
+				};
+			};
+			buildConfigurationList = D48D4E602446023000A285AE /* Build configuration list for PBXProject "tickit_admin_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48D4E5C2446023000A285AE;
+			productRefGroup = D48D4E662446023000A285AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48D4E642446023000A285AE /* tickit_admin_app */,
+				D48D4E7A2446023800A285AE /* tickit_admin_appTests */,
+				D48D4E852446023800A285AE /* tickit_admin_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48D4E632446023000A285AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48D4E752446023800A285AE /* LaunchScreen.storyboard in Resources */,
+				D48D4E992446070E00A285AE /* GoogleService-Info.plist in Resources */,
+				D48D4E722446023800A285AE /* Assets.xcassets in Resources */,
+				D48D4E702446023000A285AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48D4E792446023800A285AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48D4E842446023800A285AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		336A2E161128DA7A8E4A777A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tickit_admin_app/Pods-tickit_admin_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tickit_admin_app/Pods-tickit_admin_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tickit_admin_app/Pods-tickit_admin_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A965C5481501CA6595AB8B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tickit_admin_appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB748844DCB98C3DDDDE2D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tickit_admin_app-tickit_admin_appUITests/Pods-tickit_admin_app-tickit_admin_appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tickit_admin_app-tickit_admin_appUITests/Pods-tickit_admin_app-tickit_admin_appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tickit_admin_app-tickit_admin_appUITests/Pods-tickit_admin_app-tickit_admin_appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66CFD7620AF139E2682044C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tickit_admin_app-tickit_admin_appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2371005CE703DEE5091533C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tickit_admin_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48D4E612446023000A285AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48D4E9D2446179000A285AE /* CollectionViewCell.swift in Sources */,
+				D48D4E6D2446023000A285AE /* ViewController.swift in Sources */,
+				D48D4E692446023000A285AE /* AppDelegate.swift in Sources */,
+				D48D4E6B2446023000A285AE /* SceneDelegate.swift in Sources */,
+				D43BB56824461F6600E7E596 /* EventsViewController.swift in Sources */,
+				D48D4E9B2446151000A285AE /* HomeViewController.swift in Sources */,
+				D43BB56C24461FC600E7E596 /* PopularEventsViewController.swift in Sources */,
+				D43BB56624461F5600E7E596 /* MoviesViewController.swift in Sources */,
+				D43BB56A24461F8500E7E596 /* SportsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48D4E772446023800A285AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48D4E802446023800A285AE /* tickit_admin_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48D4E822446023800A285AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48D4E8B2446023800A285AE /* tickit_admin_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48D4E7D2446023800A285AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48D4E642446023000A285AE /* tickit_admin_app */;
+			targetProxy = D48D4E7C2446023800A285AE /* PBXContainerItemProxy */;
+		};
+		D48D4E882446023800A285AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48D4E642446023000A285AE /* tickit_admin_app */;
+			targetProxy = D48D4E872446023800A285AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D48D4E6E2446023000A285AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48D4E6F2446023000A285AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D48D4E732446023800A285AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48D4E742446023800A285AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D48D4E8D2446023800A285AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D48D4E8E2446023800A285AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48D4E902446023800A285AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499888E8BA57FA8569CCEF98 /* Pods-tickit_admin_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BULHRS882;
+				INFOPLIST_FILE = tickit_admin_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "centennialCollege.tickit-admin-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D48D4E912446023800A285AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C82ABF7DE4204C2D8BAF7A /* Pods-tickit_admin_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BULHRS882;
+				INFOPLIST_FILE = tickit_admin_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "centennialCollege.tickit-admin-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D48D4E932446023800A285AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4705646A902BA7E62068941B /* Pods-tickit_admin_appTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BULHRS882;
+				INFOPLIST_FILE = tickit_admin_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "centennialCollege.tickit-admin-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tickit_admin_app.app/tickit_admin_app";
+			};
+			name = Debug;
+		};
+		D48D4E942446023800A285AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9720761DBE30778AE8BF32 /* Pods-tickit_admin_appTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BULHRS882;
+				INFOPLIST_FILE = tickit_admin_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "centennialCollege.tickit-admin-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tickit_admin_app.app/tickit_admin_app";
+			};
+			name = Release;
+		};
+		D48D4E962446023800A285AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC720B0D5BD22D2B66DFCB1 /* Pods-tickit_admin_app-tickit_admin_appUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BULHRS882;
+				INFOPLIST_FILE = tickit_admin_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "centennialCollege.tickit-admin-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tickit_admin_app;
+			};
+			name = Debug;
+		};
+		D48D4E972446023800A285AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C330AAA846BAC62AF8C88E1 /* Pods-tickit_admin_app-tickit_admin_appUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BULHRS882;
+				INFOPLIST_FILE = tickit_admin_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "centennialCollege.tickit-admin-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tickit_admin_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48D4E602446023000A285AE /* Build configuration list for PBXProject "tickit_admin_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48D4E8D2446023800A285AE /* Debug */,
+				D48D4E8E2446023800A285AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48D4E8F2446023800A285AE /* Build configuration list for PBXNativeTarget "tickit_admin_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48D4E902446023800A285AE /* Debug */,
+				D48D4E912446023800A285AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48D4E922446023800A285AE /* Build configuration list for PBXNativeTarget "tickit_admin_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48D4E932446023800A285AE /* Debug */,
+				D48D4E942446023800A285AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48D4E952446023800A285AE /* Build configuration list for PBXNativeTarget "tickit_admin_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48D4E962446023800A285AE /* Debug */,
+				D48D4E972446023800A285AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48D4E5D2446023000A285AE /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_tickit_admin_app_tickit_admin_appUITests {
+  umbrella header "Pods-tickit_admin_app-tickit_admin_appUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
